@@ -220,7 +220,7 @@ const RCardOnboarding: React.FC<RCardOnboardingProps> = ({ agent }) => {
   }
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']}>
+    <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']} testID={testIdWithKey('RCardProfileScreen')}>
       <KeyboardAvoidingView
         style={{ flex: 1 }}
         behavior="padding"

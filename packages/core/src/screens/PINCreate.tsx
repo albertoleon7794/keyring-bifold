@@ -147,7 +147,7 @@ const PINCreate: React.FC<PINCreateProps> = ({ setAuthenticated, explainedStatus
   }, [])
 
   return explained ? (
-    <SafeAreaView style={style.safeArea} edges={['left', 'right', 'bottom']}>
+    <SafeAreaView style={style.safeArea} edges={['left', 'right', 'bottom']} testID={testIdWithKey('PinEntryScreen')}>
       <View style={style.cardWrapper}>
         <View style={style.card}>
           <ScrollView
