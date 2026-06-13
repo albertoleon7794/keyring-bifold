@@ -676,7 +676,6 @@ exports[`displays a proof request screen ProofRequest Screen, W3C displays a pro
                               getItemCount={[Function]}
                               initialNumToRender={1}
                               keyExtractor={[Function]}
-                              onContentSizeChange={[Function]}
                               onLayout={[Function]}
                               onMomentumScrollBegin={[Function]}
                               onMomentumScrollEnd={[Function]}
@@ -1255,7 +1254,6 @@ exports[`displays a proof request screen ProofRequest Screen, W3C displays a pro
                               getItemCount={[Function]}
                               initialNumToRender={2}
                               keyExtractor={[Function]}
-                              onContentSizeChange={[Function]}
                               onLayout={[Function]}
                               onMomentumScrollBegin={[Function]}
                               onMomentumScrollEnd={[Function]}

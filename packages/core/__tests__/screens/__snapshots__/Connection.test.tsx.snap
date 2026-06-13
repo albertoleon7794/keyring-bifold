@@ -1111,7 +1111,6 @@ exports[`Connection Screen Valid goal code aries.vc.issue extracted, show to off
                           getItemCount={[Function]}
                           initialNumToRender={0}
                           keyExtractor={[Function]}
-                          onContentSizeChange={[Function]}
                           onLayout={[Function]}
                           onMomentumScrollBegin={[Function]}
                           onMomentumScrollEnd={[Function]}
