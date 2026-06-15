@@ -138,7 +138,7 @@ const NameWalletForm: React.FC<NameWalletProps> = ({ isRenaming, onSubmitSuccess
   }, [])
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']}>
+    <SafeAreaView style={styles.safeArea} edges={['left', 'right', 'bottom']} testID={testIdWithKey('AgentSetupScreen')}>
       <View style={styles.cardWrapper}>
         <View style={styles.card}>
           <ScrollView
