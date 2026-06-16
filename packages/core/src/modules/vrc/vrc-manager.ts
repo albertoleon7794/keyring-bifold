@@ -46,7 +46,7 @@ const DEFAULT_CREDENTIAL_EXPIRATION_MS = DEFAULT_CREDENTIAL_EXPIRATION_DAYS * 24
  * Map to track pending session-challenge timeouts
  * Key: connectionId, Value: timeout handle
  */
-const sessionChallengeTimeouts = new Map<string, NodeJS.Timeout>()
+const sessionChallengeTimeouts = new Map<string, ReturnType<typeof setTimeout>>()
 
 /**
  * Result of validating a RelationshipCredential against stored DIDs
